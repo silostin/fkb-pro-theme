@@ -2,6 +2,14 @@
 
 // FKBD - Global
 
+.new-user-wrapper {
+  .new-user-content-wrapper {
+    .user-content {
+      padding: 1em;
+    }
+  }
+}
+
 :root {
   --d-sidebar-width: 20em;
   @media screen and (max-width: 1250px) {
