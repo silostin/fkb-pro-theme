@@ -2,6 +2,40 @@
 
 // FKBD - Global
 
+.topic-body {
+	padding: 7px 11px;
+}
+
+.post-menu-area {
+	margin-top: 0;
+}
+
+.topic-meta-data .post-info {
+    float: none;
+}
+
+.topic-list th, .topic-list td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+@media (min-width:900px) {
+.topic-meta-data .post-info {
+    float: none;
+}
+.post-menu-area {
+    position: absolute !important;
+    top: -40px;
+    right: 0;
+}
+.who-liked {
+    margin-top: 0;
+    padding: 2px;
+    background: #fff;
+    box-shadow: 0 2px 4px #333;
+}
+}
+
 .new-user-wrapper {
   .new-user-content-wrapper {
     .user-content {
