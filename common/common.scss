@@ -706,7 +706,7 @@ img.avatar,
         margin: 0 8px 0 0;
       }
       .author {
-        padding: 1em 0 0.5em 0;
+        padding: 0.8em 0 0.5em 0;
         margin-right: auto;
         a {
           display: flex;
@@ -755,7 +755,7 @@ img.avatar,
       }
     }
     .link-middle-line {
-      padding: 0.5em 1em 0 1em;
+      padding: 0.7em 1em 0 1em;
       .topic-statuses {
         padding: 0;
       }
@@ -811,7 +811,7 @@ img.avatar,
       .topic-excerpt {
         font-size: var(--font-0-rem);
         color: var(--primary);
-        margin: 0 0 1em 0;
+        margin: 0 0 0em 0;
         line-height: var(--line-height-large);
         @include fkb-word-wrap;
       }
