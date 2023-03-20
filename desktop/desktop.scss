@@ -10,7 +10,6 @@
     padding: 0;
 }
 
-
 .d-modal.create-account .modal-inner-container, .d-modal.login-modal .modal-inner-container, .invites-show .modal-inner-container, .admin-invite-page .modal-inner-container {
     position: relative;
 }
@@ -22,7 +21,7 @@
 .new-user-wrapper {
   .new-user-content-wrapper {
     .user-content {
-      padding: 1em;
+      padding: 1.5em;
     }
   }
 }
@@ -610,7 +609,7 @@ body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
     .fkb-panel-contents-stats {
       display: flex;
       flex-flow: column;
-      padding: 0 0.5em 0.5em;
+      padding: 0 1em;
       .stats {
         a {
           display: inline-block;
@@ -671,10 +670,11 @@ body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
     }
     .fkb-panel-contents-bottom {
       display: flex;
+      padding: 0 0 1em 0;
       flex-wrap: wrap;
       grid-auto-flow: column;
       position: relative;
-      padding: 0.5em;
+      padding: 1em;
       gap: 0.5em;
       .fkb-link {
         color: var(--primary-high);
